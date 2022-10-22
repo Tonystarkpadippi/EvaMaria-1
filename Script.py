@@ -14,7 +14,7 @@ Thats All, i will Provide Movies There...🤓🤪
     HELP_TXT = """
     🙋🏻‍♂️   Hellooo  {} 🤓
 
-○  Tutorial video is here @sources_cods
+○  Tutorial video is here @Spidey_online
 
 ○  it's Note Complicated...🤓
 
@@ -46,7 +46,7 @@ This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
-- Source - https://github.com/8769ANURAG/EvaMaria  
+- Source - https://github.com/Tonystarkpadippi/EvaMaria-1  
 
 <b>DEVS:</b>
 - <a href=https://t.me/Spidey_online>ᴀᴍ_ᴛᴇᴄʜ</a>"""

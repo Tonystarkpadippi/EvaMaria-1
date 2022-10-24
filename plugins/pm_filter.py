@@ -404,7 +404,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝗦𝗛𝗔𝗥𝗘 𝗠𝗘 𝗪𝗜𝗧𝗛 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦', url=f'https://telegram.me/share/url?url=t.me/Loki_Auto_V10bot')
+            InlineKeyboardButton('SHARE ME WITH YOUR FRIENDS', url=f'https://telegram.me/share/url?url=t.me/Loki_Auto_V10bot')
         ], [
             InlineKeyboardButton('🔍 SEARCH', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 UPDATES', url='https://t.me/New_oTT_Moviemm')
@@ -641,7 +641,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}]-💠-{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}]-{file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -708,7 +708,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>📁 Found</b> {total_results} <b>Files For</b> {search} \n\n<i>⚡ Uploaded By</i> @MOVIES_ZILAA"
+        cap = f"<b>📁 Found</b> {total_results} <b>Files For</b> {search} \n\n<i>⚡ Uploaded By</i> @Spidey_online"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],

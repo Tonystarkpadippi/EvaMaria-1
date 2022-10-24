@@ -58,9 +58,9 @@ You can deploy this bot anywhere.
 <i>**[Watch Deploying Tutorial...](https://youtu.be/Miajl2amrKo)**</i>
 
 <details><summary>Deploy To Heroku</summary>
-<p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=QU0tUk9CT1RTL0V2YU1hcmlhIG1haW4">
+<p>
+<a href="https://heroku.com/deploy?template=https://github.com/Tonystarkpadippi/Evamaria-1">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>

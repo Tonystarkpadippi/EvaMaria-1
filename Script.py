@@ -1,20 +1,10 @@
 class script(object):
     START_TXT = """Hi {} 💖
-I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
-
+I'm Powerful Auto-Filter Bot
 Its Easy To Use Me; Just Add Me To Your Group As Admin, 
-Thats All, i will Provide Movies There...🤓🤪
-"""
+Thats All, i will Provide Movies There.."""
     HELP_TXT = """
-    🙋🏻‍♂️   Hellooo  {} 🤓
-
-○  Tutorial video is here @Spidey_online
-
-○  it's Note Complicated...🤓
-
-○  Search using inline mode
-This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space and search any movie you want...
-
+    🙋🏻‍♂️   Hellooo  {} 
 ○ Available Commands
      
  /start - Check I'm Alive..
@@ -24,12 +14,7 @@ This methord works on any chat, Just type @Filters_Ro_Bot and then leave a space
  /stats - Db status  
  /broadcast - Broadcast (owner only)
 
-○ Notice 📙:-
-
-○Dont Spam Me...🤒
-
 😎 Powered by @Spidey_online
-
 ©️ Maintained By @Spidey_online"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Spidey_online>ᴀᴍ_ᴛᴇᴄʜ</a>

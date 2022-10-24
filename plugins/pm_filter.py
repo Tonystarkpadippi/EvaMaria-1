@@ -406,11 +406,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝗦𝗛𝗔𝗥𝗘 𝗠𝗘 𝗪𝗜𝗧𝗛 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦', url=f'https://telegram.me/share/url?url=t.me/Loki_Auto_V10bot')
         ], [
-            InlineKeyboardButton('🔍 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/New_oTT_Moviemm')
+            InlineKeyboardButton('🔍 SEARCH', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤖 UPDATES', url='https://t.me/New_oTT_Moviemm')
         ], [
-            InlineKeyboardButton('ℹ️ 𝗛𝗘𝗟𝗣', callback_data='help'),
-            InlineKeyboardButton('😊 𝗔𝗕𝗢𝗨𝗧', callback_data='about')
+            InlineKeyboardButton('ℹ️ HELP', callback_data='help'),
+            InlineKeyboardButton('😊 ABOUT', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

@@ -4,13 +4,7 @@ I'm Powerful Auto-Filter Bot You Can Use Me As A Auto-filter in Your Group
 
 Its Easy To Use Me; Just Add Me To Your Group As Admin, 
 Thats All, i will Provide Movies There...🤓🤪
-
-
-⚠️More Help Check Help Button Below
-
-😎 Powered by @New_oTT_Moviemm
-
-©️ Maintained By @Spidey_online"""
+"""
     HELP_TXT = """
     🙋🏻‍♂️   Hellooo  {} 🤓
 

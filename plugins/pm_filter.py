@@ -64,7 +64,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}]-💠-{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}]-{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -404,13 +404,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙𝚜 ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝗦𝗛𝗔𝗥𝗘 𝗠𝗘 𝗪𝗜𝗧𝗛 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦', url=f'https://telegram.me/share/url?url=t.me/Loki_Auto_V10bot')
         ], [
-            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 𝚄𝚙𝚍𝚊𝚝𝚎𝚜', url='https://t.me/New_oTT_Moviemm')
+            InlineKeyboardButton('🔍 𝗦𝗘𝗔𝗥𝗖𝗛', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🤖 𝗨𝗣𝗗𝗔𝗧𝗘𝗦', url='https://t.me/New_oTT_Moviemm')
         ], [
-            InlineKeyboardButton('ℹ️ 𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('😊 𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('ℹ️ 𝗛𝗘𝗟𝗣', callback_data='help'),
+            InlineKeyboardButton('😊 𝗔𝗕𝗢𝗨𝗧', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(

@@ -1,22 +1,11 @@
 class script(object):
     START_TXT = """𝙃𝙞 {}, 
-𝙈𝙔 𝙉𝘼𝙈𝙀 𝙄𝙎 𝙇𝙊𝙆𝙄
-𝙄 𝘾𝘼𝙉 𝙋𝙍𝙊𝙑𝙄𝘿𝙀 𝙈𝙊𝙑𝙄𝙀𝙎. 𝘼 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈 𝘼𝙐𝙏𝙊𝙁𝙄𝙇𝙏𝙀𝙍 𝘽𝙊𝙏. 𝙄𝙩'𝙨 𝙀𝙖𝙨𝙮 𝙩𝙤 𝙪𝙨𝙚 𝙢𝙚:)
-
-𝙅𝙪𝙨𝙩 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙖𝙨 𝙖𝙙𝙢𝙞𝙣, 𝙃𝙞𝙩 𝙩𝙝𝙚 𝙝𝙚𝙡𝙥 𝙗𝙪𝙩𝙩𝙤𝙣 𝙛𝙤𝙧 𝙢𝙤𝙧𝙚 𝙞𝙣𝙛𝙤.."""
+𝙼𝚢 𝙽𝚊𝚖𝚎 𝚒𝚜 <a href=https://t.me/{}>{}</a> ,𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
     HELP_TXT = """
-    🙋🏻‍♂️   Hellooo  {} 
-○ Available Commands
-     
- /start - Check I'm Alive..
- /status - Bot Status
- /info - User info 
- /id - User id
- /stats - Db status  
- /broadcast - Broadcast (owner only)
+     𝙷𝙴𝚈 {} 
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂. 
 
-😎 Powered by @Spidey_online
-©️ Maintained By @Spidey_online"""
+𝙾𝚆𝙽𝙴𝚁: <𝚊 𝚑𝚛𝚎𝚏=𝚑𝚝𝚝𝚙𝚜://𝚝.𝚖𝚎/𝚂𝚙𝚒𝚍𝚎𝚢_𝚘𝚗𝚕𝚒𝚗𝚎>𝙼𝙾𝙾𝙽𝙺𝙽𝙸𝙶𝙷𝚃</𝚊>"""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Spidey_online>𝙼𝙾𝙾𝙽𝙺𝙽𝙸𝙶𝙷𝚃</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
@@ -29,7 +18,7 @@ class script(object):
 - Source - https://github.com/Tonystarkpadippi/EvaMaria-1  
 
 <b>DEVS:</b>
-- <a href=https://t.me/Spidey_online>ᴀᴍ_ᴛᴇᴄʜ</a>"""
+- <a href=https://t.me/Spidey_online>𝙼𝙾𝙾𝙽𝙺𝙽𝙸𝙶𝙷𝚃</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
